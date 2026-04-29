@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookmarks and inline elements</title>
+</head>
+
+<body>
+
+    <h1>This is my first header</h1>
+    <h2>This is my second Header</h2>
+    <p>This is my paragraf</p>
+
+    <ul>
+        <li>Akyllore</li>
+        <li>Qumesht</li>
+        <li>Coca Cola</li>
+    </ul>
+</body>
+</html>
