@@ -1,0 +1,17 @@
+p {
+    margin-right: 80px;
+    padding-left: 50px;
+    background-color: lightgrey;
+}
+
+h3 {
+    /* color: red;
+    color: rgb(255,0,0);*/
+    color: #00ff00;
+}
+
+body {
+    /*background-color: blue;*/
+    background-color: url("download.jpg");
+    background-size: cover;
+}
