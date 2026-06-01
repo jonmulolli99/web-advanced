@@ -1,0 +1,16 @@
+article p{
+    background-color: mediumslateblue;
+    color: blue;
+    padding: 30px;
+
+
+}
+article > p{
+    background-color: green ;
+    color: black;
+}
+span:first-of-type{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
