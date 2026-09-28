@@ -1,45 +1,66 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Us - Barbershop Joni</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-```
-<div class="navbar">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-    </nav>
-</div>
-
-<section class="contact-section">
-
-    <div class="barberjoni">
-
-        <h2>Contact Us</h2>
-
-        <p>
-            Pe don Fadein ma fresh nshehrin ton?
-            Cakto terminin tek ne per me u bo njeri!!
-        </p>
-
-        <p>Phone: +383 44 160 296</p>
-        <p>Email: jonmulolli99@gmail.com</p>
-        <p>Address: Ulpiane, Prishtina, Kosovo</p>
-
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </div>
 
-</section>
-```
+    <div class="contact-container">
+        <div class="contact-image">
+            <img src="clipper.jpg" alt="Clipper Barbershop">
+        </div>
+
+        <div class="contact-card">
+            <h2>Contact Us</h2>
+            <p class="contact-tagline">
+                Pe don Fadein ma fresh nshehrin ton?<br>
+                Cakto terminin tek ne per me u bo njeri!!
+            </p>
+
+            <form class="appointment-form">
+                <div class="input-group">
+                    <label for="first-name">Emri</label>
+                    <input type="text" id="first-name" required placeholder="Shkruaj emrin">
+                </div>
+
+                <div class="input-group">
+                    <label for="last-name">Mbiemri</label>
+                    <input type="text" id="last-name" required placeholder="Shkruaj mbiemrin">
+                </div>
+
+                <div class="input-group">
+                    <label for="appointment-date">Data e terminit</label>
+                    <input type="date" id="appointment-date" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="appointment-time">Ora e terminit</label>
+                    <input type="time" id="appointment-time" required>
+                </div>
+
+                <button type="submit">Cakto Terminin</button>
+            </form>
+
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +383 44 160 296</p>
+                <p><strong>Email:</strong> jonmulolli99@gmail.com</p>
+                <p><strong>Address:</strong> Ulpiane, Prishtina, Kosovo</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

@@ -1,223 +1,312 @@
-body {
-margin: 0;
-padding: 0;
-font-family: Arial, sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-/* NAVBAR */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
 
 .navbar {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
 nav {
-background-color: black;
-border: 3px solid black;
-border-radius: 20px;
-width: 90%;
-color: white;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1200px;
 }
 
 nav ul {
-display: flex;
-flex-direction: row;
-padding: 20px;
-margin: 0;
-list-style-type: none;
-align-items: center;
-justify-content: center;
-}
-
-nav ul li {
-padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px 20px;
+    gap: 30px;
 }
 
 nav ul li a {
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-color: greenyellow;
+    color: greenyellow;
 }
 
-/* HOME PAGE */
-
 .herosection {
-width: 100%;
-min-height: 700px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-color: white;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 5%;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("backgorund22.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 40px;
 }
 
 .left-side {
-width: 35%;
-margin-right: 50px;
-color: black;
+    flex: 1;
+    color: white;
 }
 
 .left-side h1 {
-font-size: 45px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 .left-side p {
-font-size: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
-.left-side button {
-border: 3px solid transparent;
-border-radius: 10px;
-background-color: greenyellow;
-padding: 10px 20px;
+.left-side .btn {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background-color: greenyellow;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-.left-side button a {
-text-decoration: none;
-color: black;
+.left-side .btn:hover {
+    background-color: #9ecc00;
+    transform: scale(1.05);
 }
-
-.left-side button:hover {
-background-color: black;
-}
-
-.left-side button:hover a {
-color: white;
-}
-
-/* CLIENT REVIEWS */
 
 .right-side {
-background-image: url('herosection.jfif');
-width: 45%;
-min-height: 350px;
-padding: 30px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 20px;
+    flex: 1;
+    min-height: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('herosection.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    border: 1px solid #333;
 }
 
 .right-side h1 {
-font-size: 35px;
+    margin-bottom: 10px;
+    color: greenyellow;
 }
 
-.right-side p {
-background-color: rgba(0, 0, 0, 0.7);
-padding: 10px;
-border-radius: 10px;
-text-align: center;
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 50px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* EMAIL FORM */
-
-form {
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 10px;
-margin: 30px;
+.contact-image img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid greenyellow;
 }
 
-form label {
-font-size: 18px;
+.contact-card {
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact-card h2 {
+    color: greenyellow;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contact-tagline {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.appointment-form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+    font-size: 1rem;
+}
+
+.appointment-form input[type="date"],
+.appointment-form input[type="time"] {
+    color-scheme: dark;
+}
+
+.appointment-form button {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-form button:hover {
+    background-color: #9ecc00;
+}
+
+.contact-info {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 15px;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
 }
 
 form input {
-padding: 10px;
-width: 250px;
-border-radius: 10px;
-border: 1px solid black;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+    width: 250px;
 }
 
 form button {
-padding: 10px 25px;
-border: none;
-border-radius: 10px;
-background-color: greenyellow;
-cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 form button:hover {
-background-color: black;
-color: white;
+    background-color: #9ecc00;
 }
 
-/* ABOUT US */
-
 .about-section {
-margin: 80px auto;
-padding: 40px;
-width: 80%;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 50px;
-background-color: #f2f2f2;
-border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .about-image img {
-width: 350px;
-height: 400px;
-object-fit: cover;
-border-radius: 20px;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid greenyellow;
 }
 
 .about-text {
-width: 50%;
+    flex: 1;
 }
 
 .about-text h2 {
-font-size: 35px;
+    color: greenyellow;
+    margin-bottom: 15px;
 }
 
 .about-text p {
-font-size: 18px;
-line-height: 1.6;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ddd;
 }
 
-/* CONTACT US */
+@media (max-width: 768px) {
+    .herosection, .contact-container, .about-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-.contact-section {
-min-height: 600px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
+    .right-side {
+        width: 100%;
+    }
 
-.barberjoni {
-background-image: url('clipper.jpg');
-width: 70%;
-min-height: 350px;
-padding: 50px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 20px;
-color: white;
-text-align: center;
-}
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
 
-.barberjoni h2 {
-font-size: 40px;
-}
-
-.barberjoni p {
-background-color: rgba(0, 0, 0, 0.7);
-padding: 10px;
-border-radius: 10px;
-font-size: 18px;
+    .form-group {
+        flex-direction: column;
+    }
 }
