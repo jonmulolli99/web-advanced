@@ -37,3 +37,18 @@ button5.onclick=function(){
     text.style.backgroundColor="blue"
     text.style.fontSize="400px"
 }
+
+
+text.onmouseover=function(){
+    text.style.cssText="color:red; background-color:gray"
+}
+
+
+
+btn1.onclick=function(){
+    text.setAttribute("class","text")
+}
+
+btn6.onclick=function(){
+    text.setAttribute("class","text")
+}
