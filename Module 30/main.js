@@ -50,5 +50,6 @@ btn1.onclick=function(){
 }
 
 btn6.onclick=function(){
-    text.setAttribute("class","text")
+    text.setAttribute("class","hide")
 }
+
