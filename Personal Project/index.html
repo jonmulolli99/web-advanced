@@ -2,484 +2,492 @@
 <!DOCTYPE html>
 <html lang="sq">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="JCUTZ Barbershop Joni. Fresh cuts, fades dhe stil në Prishtinë.">
-    <title>JCUTZ | Barbershop Joni</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d0b">
+  <meta name="description" content="JCUTZ Barbershop Joni, Prishtinë. Qethje, fade dhe kujdes për stilin tënd. Shiko shërbimet dhe kërko terminin online.">
+  <title>JCUTZ — The Art of a Fresh Cut</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Kalo te përmbajtja</a>
 
-    <header class="header">
-        <div class="container nav-container">
+  <header class="site-header">
+    <div class="nav-shell container">
 
-            <a href="index.html" class="logo">
-                J<span>✦</span>CUTZ
-                <small>BARBERSHOP JONI</small>
+      <a class="brand" href="index.html" aria-label="JCUTZ, faqja kryesore">
+        <span class="brand-main">J<span>✦</span>CUTZ</span>
+        <small>BARBERSHOP JONI</small>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigimi kryesor">
+        <a class="current" aria-current="page" href="index.html">HOME</a>
+        <a href="index.html#services">SERVICES</a>
+        <a href="aboutus.html">ABOUT</a>
+        <a href="index.html#gallery">GALLERY</a>
+        <a href="contactus.html">CONTACT</a>
+      </nav>
+
+      <a class="nav-book" href="contactus.html#booking">
+        BOOK A CHAIR <span>↗</span>
+      </a>
+
+      <details class="mobile-menu">
+        <summary aria-label="Hap menynë">
+          <span></span><span></span><span></span>
+        </summary>
+        <nav aria-label="Navigimi për telefon">
+          <a href="index.html">HOME</a>
+          <a href="index.html#services">SERVICES</a>
+          <a href="aboutus.html">ABOUT</a>
+          <a href="index.html#gallery">GALLERY</a>
+          <a href="contactus.html">CONTACT</a>
+          <a href="contactus.html#booking">BOOK A CHAIR ↗</a>
+        </nav>
+      </details>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO SECTION -->
+
+    <section class="home-hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            PRISHTINA • KOSOVO <i></i> EST. WITH PASSION
+          </p>
+
+          <h1 id="hero-title">
+            THE ART<br>
+            OF A <em>FRESH</em><br>
+            CUT<span class="hero-period">.</span>
+          </h1>
+
+          <p class="hero-lead">
+            Nuk është veç një qethje. Është stili yt,
+            vetëbesimi yt dhe kujdesi në çdo detaj.
+            Mirë se vjen te <strong>JCUTZ Barbershop Joni.</strong>
+          </p>
+
+          <div class="button-group">
+            <a class="button button-accent" href="contactus.html#booking">
+              CAKTO TERMININ <span>↗</span>
             </a>
-
-            <nav class="desktop-nav" aria-label="Main navigation">
-                <a href="index.html" class="active">HOME</a>
-                <a href="index.html#services">SERVICES</a>
-                <a href="aboutus.html">ABOUT US</a>
-                <a href="index.html#gallery">GALLERY</a>
-                <a href="contactus.html">CONTACT</a>
-            </nav>
-
-            <a href="contactus.html#booking" class="nav-cta">
-                BOOK NOW ↗
+            <a class="button button-line" href="#services">
+              SHIKO SHËRBIMET <span>↓</span>
             </a>
+          </div>
 
-            <details class="mobile-menu">
-                <summary aria-label="Open navigation menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </summary>
-
-                <nav class="mobile-links" aria-label="Mobile navigation">
-                    <a href="index.html">HOME</a>
-                    <a href="index.html#services">SERVICES</a>
-                    <a href="aboutus.html">ABOUT US</a>
-                    <a href="index.html#gallery">GALLERY</a>
-                    <a href="contactus.html">CONTACT</a>
-                    <a href="contactus.html#booking">BOOK NOW ↗</a>
-                </nav>
-            </details>
-
-        </div>
-    </header>
-
-
-    <main>
-
-        <!-- HERO SECTION -->
-
-        <section class="hero" id="home">
-            <div class="container hero-grid">
-
-                <div class="hero-content">
-                    <p class="eyebrow">
-                        <span class="green-dot"></span>
-                        THE HOME OF FRESH CUTS
-                    </p>
-
-                    <h1>
-                        FRESH CUT.<br>
-                        <span>NEW LEVEL.</span>
-                    </h1>
-
-                    <p class="hero-description">
-                        Number 1 fresh cut in the city.
-                        Precision fades, clean details and
-                        confidence in every haircut.
-                        Welcome to JCUTZ Barbershop Joni.
-                    </p>
-
-                    <div class="hero-buttons">
-                        <a href="contactus.html#booking" class="btn btn-green">
-                            BOOK YOUR CUT <span>↗</span>
-                        </a>
-
-                        <a href="#services" class="btn btn-outline">
-                            OUR SERVICES
-                        </a>
-                    </div>
-
-                    <div class="hero-labels">
-                        <span>PRECISION</span>
-                        <span>STYLE</span>
-                        <span>CONFIDENCE</span>
-                    </div>
-                </div>
-
-                <div class="hero-brand" aria-hidden="true">
-                    <div class="hero-circle">
-                        <strong>J✦</strong>
-                        <span>STAY FRESH</span>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="container hero-bottom">
-                <span>JCUTZ / BARBERSHOP JONI</span>
-                <a href="#services">SCROLL TO EXPLORE ↓</a>
-            </div>
-        </section>
-
-
-        <!-- MOVING BANNER -->
-
-        <div class="ticker" aria-hidden="true">
-            <div class="ticker-track">
-                <span>FRESH FADES ✦ CLEAN CUTS ✦ PREMIUM STYLE ✦ </span>
-                <span>FRESH FADES ✦ CLEAN CUTS ✦ PREMIUM STYLE ✦ </span>
-                <span>FRESH FADES ✦ CLEAN CUTS ✦ PREMIUM STYLE ✦ </span>
-                <span>FRESH FADES ✦ CLEAN CUTS ✦ PREMIUM STYLE ✦ </span>
-            </div>
+          <div class="hero-notes" aria-label="Vlerat tona">
+            <span>01 / PRECISION</span>
+            <span>02 / PASSION</span>
+            <span>03 / STYLE</span>
+          </div>
         </div>
 
-
-        <!-- SERVICES -->
-
-        <section class="section" id="services">
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <span class="section-tag">01 / OUR SERVICES</span>
-                        <h2>THE <span>SERVICES.</span></h2>
-                    </div>
-
-                    <p>
-                        Every cut is different.
-                        Choose your service and get your fresh look.
-                    </p>
-                </div>
-
-                <div class="services-grid">
-
-                    <article class="service-card">
-                        <div class="service-top">
-                            <span>01 / HAIRCUT</span>
-                            <span>↗</span>
-                        </div>
-
-                        <div class="service-icon">✂</div>
-                        <h3>HAIRCUT</h3>
-
-                        <p>
-                            Classic haircut, skin fade,
-                            taper fade and modern hairstyles.
-                        </p>
-
-                        <div class="service-price">
-                            <span>PRICE</span>
-                            <strong>3€</strong>
-                        </div>
-
-                        <a href="contactus.html#booking" class="card-link">
-                            BOOK SERVICE ↗
-                        </a>
-                    </article>
-
-                    <article class="service-card">
-                        <div class="service-top">
-                            <span>02 / BEARD</span>
-                            <span>↗</span>
-                        </div>
-
-                        <div class="service-icon">◈</div>
-                        <h3>BEARD TRIM</h3>
-
-                        <p>
-                            Sharp beard lines, detailed trimming
-                            and a clean finish.
-                        </p>
-
-                        <div class="service-price">
-                            <span>PRICE</span>
-                            <strong>2€</strong>
-                        </div>
-
-                        <a href="contactus.html#booking" class="card-link">
-                            BOOK SERVICE ↗
-                        </a>
-                    </article>
-
-                    <article class="service-card">
-                        <div class="service-top">
-                            <span>03 / HAIR WASH</span>
-                            <span>↗</span>
-                        </div>
-
-                        <div class="service-icon">✧</div>
-                        <h3>HAIR WASH</h3>
-
-                        <p>
-                            Fresh hair wash for a clean
-                            and comfortable finish.
-                        </p>
-
-                        <div class="service-price">
-                            <span>PRICE</span>
-                            <strong>1€</strong>
-                        </div>
-
-                        <a href="contactus.html#booking" class="card-link">
-                            BOOK SERVICE ↗
-                        </a>
-                    </article>
-
-                    <article class="service-card featured">
-                        <div class="service-top">
-                            <span>04 / MOST POPULAR</span>
-                            <span>✦</span>
-                        </div>
-
-                        <div class="service-icon">✦</div>
-                        <h3>FULL GROOMING</h3>
-
-                        <p>
-                            Haircut and beard trim combined
-                            for a complete fresh look.
-                        </p>
-
-                        <div class="service-price">
-                            <span>PACKAGE PRICE</span>
-                            <strong>4€</strong>
-                        </div>
-
-                        <a href="contactus.html#booking" class="card-link">
-                            BOOK SERVICE ↗
-                        </a>
-                    </article>
-
-                </div>
+        <div class="hero-visual">
+          <div class="hero-photo-wrap">
+            <img
+              src="youngbarber.jfif"
+              alt="Fotografia e berberit Joni"
+              fetchpriority="high"
+            >
+            <div class="hero-photo-shade"></div>
+            <div class="hero-photo-label">
+              <span>THE FACE BEHIND THE BRAND</span>
+              <strong>JONI / JCUTZ</strong>
             </div>
-        </section>
+          </div>
+
+          <div class="hero-stamp" aria-hidden="true">
+            <span>✦</span>
+            <strong>STAY<br>SHARP</strong>
+          </div>
+
+          <span class="hero-vertical" aria-hidden="true">
+            INDEPENDENT BARBER • PRISHTINA
+          </span>
+        </div>
+      </div>
+
+      <div class="container hero-foot">
+        <span>JCUTZ © 2026</span>
+        <a href="#services">DISCOVER THE EXPERIENCE ↓</a>
+        <span>SCROLL TO EXPLORE</span>
+      </div>
+    </section>
 
 
-        <!-- ABOUT PREVIEW -->
+    <!-- ANIMATED BANNER -->
 
-        <section class="section section-alt">
-            <div class="container split-layout">
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>PRECISION CUTS ✦ CONFIDENT STYLE ✦ FRESH EVERY TIME ✦ </span>
+        <span>PRECISION CUTS ✦ CONFIDENT STYLE ✦ FRESH EVERY TIME ✦ </span>
+        <span>PRECISION CUTS ✦ CONFIDENT STYLE ✦ FRESH EVERY TIME ✦ </span>
+        <span>PRECISION CUTS ✦ CONFIDENT STYLE ✦ FRESH EVERY TIME ✦ </span>
+      </div>
+    </div>
 
-                <div class="image-panel home-about-image">
-                    <div class="image-caption">
-                        <span>THE PERSON BEHIND THE CUTS</span>
-                        <strong>PASSION FROM DAY ONE.</strong>
-                    </div>
-                </div>
 
-                <div class="split-content">
-                    <span class="section-tag">02 / OUR STORY</span>
+    <!-- SERVICES -->
 
-                    <h2>
-                        YOUNG AGE.<br>
-                        <span>BIG PASSION.</span>
-                    </h2>
+    <section class="section services-section" id="services">
+      <div class="container">
 
-                    <p>
-                        My journey as a barber started at the
-                        age of 13. What began as an interest
-                        quickly turned into real passion
-                        and dedication.
-                    </p>
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">
+              <b>01</b> / WHAT WE DO
+            </span>
 
-                    <p>
-                        Çdo qethje është një mundësi për
-                        me tregu kreativitetin, kujdesin
-                        dhe dashurinë për këtë profesion.
-                    </p>
+            <h2>
+              YOUR LOOK.<br>
+              <em>OUR CRAFT.</em>
+            </h2>
+          </div>
 
-                    <a href="aboutus.html" class="btn btn-outline">
-                        DISCOVER MY STORY ↗
-                    </a>
-                </div>
+          <p>
+            Zgjedhe shërbimin që të përshtatet.
+            Kujdesi për detajet është pjesë
+            e çdo qethjeje.
+          </p>
+        </div>
 
+        <div class="service-grid">
+
+          <article class="service-card reveal">
+            <span class="card-index">01 / THE CLASSIC</span>
+            <div class="service-symbol" aria-hidden="true">✂</div>
+            <h3>HAIRCUT</h3>
+            <p>
+              Qethje klasike, fade dhe stilim
+              sipas dëshirës tënde.
+            </p>
+            <div class="service-bottom">
+              <strong>03<span>€</span></strong>
+              <a href="contactus.html#booking" aria-label="Kërko termin për haircut">
+                BOOK ↗
+              </a>
             </div>
-        </section>
+          </article>
 
-
-        <!-- GALLERY -->
-
-        <section class="section" id="gallery">
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <span class="section-tag">03 / THE LOOK</span>
-                        <h2>OUR <span>GALLERY.</span></h2>
-                    </div>
-
-                    <p>
-                        Explore the atmosphere,
-                        tools and style behind JCUTZ.
-                    </p>
-                </div>
-
-                <div class="gallery-grid">
-
-                    <div class="gallery-item gallery-1">
-                        <div class="gallery-caption">
-                            <span>01 / BARBERSHOP</span>
-                            <h3>THE EXPERIENCE</h3>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item gallery-2">
-                        <div class="gallery-caption">
-                            <span>02 / EQUIPMENT</span>
-                            <h3>THE DETAILS</h3>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item gallery-3">
-                        <div class="gallery-caption">
-                            <span>03 / PASSION</span>
-                            <h3>THE CRAFT</h3>
-                        </div>
-                    </div>
-
-                </div>
+          <article class="service-card reveal">
+            <span class="card-index">02 / THE DETAILS</span>
+            <div class="service-symbol" aria-hidden="true">◈</div>
+            <h3>BEARD TRIM</h3>
+            <p>
+              Rregullim i mjekrës, vijave dhe
+              detajeve për pamje të pastër.
+            </p>
+            <div class="service-bottom">
+              <strong>02<span>€</span></strong>
+              <a href="contactus.html#booking" aria-label="Kërko termin për beard trim">
+                BOOK ↗
+              </a>
             </div>
-        </section>
+          </article>
 
-
-        <!-- REVIEWS -->
-
-        <section class="section section-alt" id="reviews">
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <span class="section-tag">04 / CLIENT FEEDBACK</span>
-                        <h2>CLIENT <span>REVIEWS.</span></h2>
-                    </div>
-
-                    <p>
-                        A great haircut is about more
-                        than just the final look.
-                    </p>
-                </div>
-
-                <div class="reviews-grid">
-
-                    <article class="review-card">
-                        <span class="review-quote">“</span>
-                        <div class="stars">★★★★★</div>
-
-                        <p>
-                            S'ma ka marrë mendja që Joni
-                            munet me bo këtë punë kaq mirë.
-                            Qethja ka dalë super!
-                        </p>
-
-                        <div class="review-author">
-                            <span class="avatar">F1</span>
-                            <div>
-                                <strong>Filan Fisteku 1</strong>
-                                <small>DEMO REVIEW</small>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="review-card">
-                        <span class="review-quote">“</span>
-                        <div class="stars">★★★★★</div>
-
-                        <p>
-                            PHAAA, m'ka mahnit çfarë
-                            kufizimi ma ka bo.
-                            Shërbim shumë i mirë!
-                        </p>
-
-                        <div class="review-author">
-                            <span class="avatar">F2</span>
-                            <div>
-                                <strong>Filan Fisteku 2</strong>
-                                <small>DEMO REVIEW</small>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="review-card">
-                        <span class="review-quote">“</span>
-                        <div class="stars">★★★★★</div>
-
-                        <p>
-                            Prej sotit klient i rregullt
-                            te Joni. Gjithçka shumë
-                            profesionale.
-                        </p>
-
-                        <div class="review-author">
-                            <span class="avatar">F3</span>
-                            <div>
-                                <strong>Filan Fisteku 3</strong>
-                                <small>DEMO REVIEW</small>
-                            </div>
-                        </div>
-                    </article>
-
-                </div>
-
-                <p class="demo-note">
-                    Komente shembull nga projekti yt.
-                    Zëvendësoji me vlerësime reale para publikimit.
-                </p>
-
+          <article class="service-card reveal">
+            <span class="card-index">03 / THE FINISH</span>
+            <div class="service-symbol" aria-hidden="true">✧</div>
+            <h3>HAIR WASH</h3>
+            <p>
+              Larje e flokëve për një ndjesi
+              të freskët pas qethjes.
+            </p>
+            <div class="service-bottom">
+              <strong>01<span>€</span></strong>
+              <a href="contactus.html#booking" aria-label="Kërko termin për hair wash">
+                BOOK ↗
+              </a>
             </div>
-        </section>
+          </article>
 
-
-        <!-- CALL TO ACTION -->
-
-        <section class="cta-section">
-            <div class="container cta-layout">
-                <div>
-                    <span>YOUR NEXT LOOK STARTS HERE</span>
-                    <h2>
-                        STAY FRESH.<br>
-                        <strong>STAY DIFFERENT.</strong>
-                    </h2>
-                </div>
-
-                <a href="contactus.html#booking" class="btn btn-dark">
-                    BOOK YOUR APPOINTMENT ↗
-                </a>
+          <article class="service-card featured reveal">
+            <span class="card-index">
+              04 / THE COMPLETE LOOK <b>POPULAR</b>
+            </span>
+            <div class="service-symbol" aria-hidden="true">✦</div>
+            <h3>FULL GROOMING</h3>
+            <p>
+              Qethje dhe rregullim i mjekrës
+              në një shërbim të vetëm.
+            </p>
+            <div class="service-bottom">
+              <strong>04<span>€</span></strong>
+              <a href="contactus.html#booking" aria-label="Kërko termin për full grooming">
+                BOOK ↗
+              </a>
             </div>
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-
-    <footer class="footer">
-        <div class="container">
-
-            <div class="footer-grid">
-
-                <div class="footer-about">
-                    <a href="index.html" class="logo">
-                        J<span>✦</span>CUTZ
-                        <small>BARBERSHOP JONI</small>
-                    </a>
-
-                    <p>
-                        Precision. Confidence. Style.<br>
-                        More than a haircut.
-                    </p>
-                </div>
-
-                <div class="footer-links">
-                    <h3>EXPLORE</h3>
-                    <a href="index.html">Home</a>
-                    <a href="index.html#services">Services</a>
-                    <a href="aboutus.html">About Us</a>
-                    <a href="contactus.html">Contact</a>
-                </div>
-
-                <div class="footer-links">
-                    <h3>CONTACT</h3>
-                    <a href="tel:+38344160296">+383 44 160 296</a>
-                    <a href="mailto:jonmulolli99@gmail.com">Email Us</a>
-                    <a href="contactus.html#booking">Book a Cut</a>
-                </div>
-
-            </div>
-
-            <div class="footer-bottom">
-                <span>© 2026 JCUTZ BARBERSHOP JONI</span>
-                <span>MADE WITH PASSION ✦</span>
-            </div>
+          </article>
 
         </div>
-    </footer>
+
+        <div class="section-small-note">
+          * Çmimet janë në euro.
+          Për termine dhe pyetje na kontakto direkt.
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT PREVIEW -->
+
+    <section class="editorial-section">
+      <div class="container editorial-layout">
+
+        <div class="editorial-photo reveal">
+          <img src="youngbarber.jfif" alt="Joni, berberi pas JCUTZ" loading="lazy">
+          <span class="photo-corner top-left"></span>
+          <span class="photo-corner bottom-right"></span>
+
+          <div class="editorial-caption">
+            THE PERSON BEHIND JCUTZ <span>↗</span>
+          </div>
+        </div>
+
+        <div class="editorial-copy reveal">
+          <span class="section-kicker">
+            <b>02</b> / THE PERSON BEHIND THE CLIPPERS
+          </span>
+
+          <h2>
+            YOUNG<br>
+            AGE.<br>
+            <em>BIG VISION.</em>
+          </h2>
+
+          <div class="editorial-rule"></div>
+
+          <p>
+            Unë jam Joni. Pasioni im për berberi
+            ka filluar në moshën <strong>13 vjeçare</strong>.
+            Çdo ditë është një mundësi e re për të mësuar,
+            për t'u përmirësuar dhe për t'i kushtuar
+            vëmendje çdo detaji.
+          </p>
+
+          <a class="text-link" href="aboutus.html">
+            LEXO HISTORINË TIME <span>↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- GALLERY -->
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">
+              <b>03</b> / INSIDE JCUTZ
+            </span>
+
+            <h2>
+              A CLOSER<br>
+              <em>LOOK.</em>
+            </h2>
+          </div>
+
+          <p>
+            Një pamje nga atmosfera, mjetet
+            dhe pasioni që qëndron pas JCUTZ.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+
+          <a class="gallery-tile gallery-large reveal"
+             href="backgorund22.jpg"
+             target="_blank"
+             rel="noopener">
+            <img src="backgorund22.jpg"
+                 alt="Atmosfera e barbershop-it"
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span>01 / ATMOSPHERE</span>
+              <h3>THE SPACE</h3>
+              <b>↗</b>
+            </div>
+          </a>
+
+          <a class="gallery-tile reveal"
+             href="clipper.jpg"
+             target="_blank"
+             rel="noopener">
+            <img src="clipper.jpg"
+                 alt="Makina e qethjes për berberi"
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span>02 / EQUIPMENT</span>
+              <h3>THE TOOLS</h3>
+              <b>↗</b>
+            </div>
+          </a>
+
+          <a class="gallery-tile reveal"
+             href="youngbarber.jfif"
+             target="_blank"
+             rel="noopener">
+            <img src="youngbarber.jfif"
+                 alt="Joni, berberi"
+                 loading="lazy">
+            <div class="gallery-overlay">
+              <span>03 / THE BARBER</span>
+              <h3>THE PASSION</h3>
+              <b>↗</b>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- HOW TO BOOK -->
+
+    <section class="section process-section" id="process">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">
+              <b>04</b> / SIMPLE BY DESIGN
+            </span>
+
+            <h2>
+              THREE STEPS.<br>
+              <em>ONE FRESH LOOK.</em>
+            </h2>
+          </div>
+
+          <p>
+            Rezervimi nis lehtë. Ne e konfirmojmë
+            terminin pasi të kontrollojmë orarin.
+          </p>
+        </div>
+
+        <div class="process-grid">
+
+          <article class="process-step reveal">
+            <span>STEP / 01</span>
+            <strong>01</strong>
+            <h3>ZGJEDHE STILIN</h3>
+            <p>
+              Shiko shërbimet dhe vendos
+              çfarë të duhet.
+            </p>
+          </article>
+
+          <article class="process-step reveal">
+            <span>STEP / 02</span>
+            <strong>02</strong>
+            <h3>DËRGO KËRKESËN</h3>
+            <p>
+              Plotëso formularin me datën
+              dhe orën e dëshiruar.
+            </p>
+          </article>
+
+          <article class="process-step reveal">
+            <span>STEP / 03</span>
+            <strong>03</strong>
+            <h3>PRIT KONFIRMIMIN</h3>
+            <p>
+              Termini vlen pasi të marrësh
+              përgjigje nga ne.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+
+    <section class="big-cta">
+      <div class="container big-cta-layout">
+
+        <div>
+          <span class="cta-overline">JCUTZ / YOUR NEXT MOVE</span>
+          <h2>
+            READY FOR<br>
+            <em>A FRESH CUT?</em>
+          </h2>
+        </div>
+
+        <a class="button button-black" href="contactus.html#booking">
+          BOOK YOUR CHAIR <span>↗</span>
+        </a>
+
+        <span class="cta-spark" aria-hidden="true">✦</span>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-main">J<span>✦</span>CUTZ</span>
+            <small>BARBERSHOP JONI</small>
+          </a>
+
+          <p>
+            More than a haircut.<br>
+            It's a statement.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>EXPLORE</h3>
+          <a href="index.html">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="index.html#gallery">Gallery</a>
+          <a href="contactus.html">Contact</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>GET IN TOUCH</h3>
+          <a href="tel:+38344160296">+383 44 160 296</a>
+          <a href="mailto:jonmulolli99@gmail.com">Send an email</a>
+          <a href="contactus.html#booking">Request appointment</a>
+          <p>Ulpianë, Prishtinë, Kosovë</p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 JCUTZ BARBERSHOP JONI</span>
+        <span>CRAFTED WITH PASSION ✦</span>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
 </html>

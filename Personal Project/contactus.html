@@ -2,422 +2,545 @@
 <!DOCTYPE html>
 <html lang="sq">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kontakto JCUTZ Barbershop Joni në Ulpianë, Prishtinë dhe kërko terminin tënd.">
-    <title>Contact Us | JCUTZ Barbershop Joni</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d0b">
+  <meta name="description" content="Kontakto JCUTZ Barbershop Joni në Ulpianë, Prishtinë. Kërko terminin për qethje, mjekër dhe hair wash.">
+  <title>Book Your Chair — JCUTZ Barbershop Joni</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Kalo te përmbajtja</a>
 
-    <header class="header">
-        <div class="container nav-container">
+  <header class="site-header">
+    <div class="nav-shell container">
 
-            <a href="index.html" class="logo">
-                J<span>✦</span>CUTZ
-                <small>BARBERSHOP JONI</small>
+      <a class="brand" href="index.html" aria-label="JCUTZ, faqja kryesore">
+        <span class="brand-main">J<span>✦</span>CUTZ</span>
+        <small>BARBERSHOP JONI</small>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigimi kryesor">
+        <a href="index.html">HOME</a>
+        <a href="index.html#services">SERVICES</a>
+        <a href="aboutus.html">ABOUT</a>
+        <a href="index.html#gallery">GALLERY</a>
+        <a class="current" aria-current="page" href="contactus.html">CONTACT</a>
+      </nav>
+
+      <a class="nav-book" href="#booking">
+        BOOK A CHAIR <span>↗</span>
+      </a>
+
+      <details class="mobile-menu">
+        <summary aria-label="Hap menynë">
+          <span></span><span></span><span></span>
+        </summary>
+
+        <nav aria-label="Navigimi për telefon">
+          <a href="index.html">HOME</a>
+          <a href="index.html#services">SERVICES</a>
+          <a href="aboutus.html">ABOUT</a>
+          <a href="index.html#gallery">GALLERY</a>
+          <a href="contactus.html">CONTACT</a>
+          <a href="#booking">BOOK A CHAIR ↗</a>
+        </nav>
+      </details>
+
+    </div>
+  </header>
+
+
+  <main id="main">
+
+    <!-- CONTACT HERO -->
+
+    <section class="inner-hero contact-hero" aria-labelledby="contact-heading">
+      <div class="container inner-hero-content">
+
+        <span class="section-kicker">
+          <b>JCUTZ</b> / LET'S TALK
+        </span>
+
+        <h1 id="contact-heading">
+          YOUR NEXT<br>
+          <em>FRESH CUT.</em>
+        </h1>
+
+        <p>
+          Një hap larg stilit tënd të ri.
+          Na kontakto ose dërgo kërkesën për termin.
+        </p>
+
+        <a href="#booking" class="button button-accent">
+          REQUEST AN APPOINTMENT <span>↗</span>
+        </a>
+
+      </div>
+
+      <span class="inner-hero-watermark" aria-hidden="true">✦</span>
+    </section>
+
+
+    <!-- CONTACT DETAILS -->
+
+    <section class="section contact-info-section">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">
+              <b>01</b> / CONNECT WITH US
+            </span>
+
+            <h2>
+              LET'S<br>
+              <em>CONNECT.</em>
+            </h2>
+          </div>
+
+          <p>
+            Preferon me na thirrë direkt?
+            Këtu i ke të gjitha kontaktet.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <article class="contact-card reveal">
+            <span class="contact-card-top">
+              01 / PHONE <b>↗</b>
+            </span>
+
+            <div class="contact-icon">☎</div>
+            <h3>CALL US</h3>
+
+            <p>
+              Na thirr për informata ose
+              për ta diskutuar terminin.
+            </p>
+
+            <a href="tel:+38344160296">
+              +383 44 160 296 ↗
             </a>
+          </article>
 
-            <nav class="desktop-nav" aria-label="Main navigation">
-                <a href="index.html">HOME</a>
-                <a href="index.html#services">SERVICES</a>
-                <a href="aboutus.html">ABOUT US</a>
-                <a href="index.html#gallery">GALLERY</a>
-                <a href="contactus.html" class="active">CONTACT</a>
-            </nav>
+          <article class="contact-card reveal">
+            <span class="contact-card-top">
+              02 / EMAIL <b>↗</b>
+            </span>
 
-            <a href="contactus.html#booking" class="nav-cta">
-                BOOK NOW ↗
+            <div class="contact-icon">✉</div>
+            <h3>EMAIL US</h3>
+
+            <p>
+              Shkruaj për pyetje ose për
+              një kërkesë rezervimi.
+            </p>
+
+            <a href="mailto:jonmulolli99@gmail.com">
+              jonmulolli99@gmail.com ↗
             </a>
+          </article>
 
-            <details class="mobile-menu">
-                <summary aria-label="Open navigation menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </summary>
+          <article class="contact-card reveal">
+            <span class="contact-card-top">
+              03 / LOCATION <b>↗</b>
+            </span>
 
-                <nav class="mobile-links" aria-label="Mobile navigation">
-                    <a href="index.html">HOME</a>
-                    <a href="index.html#services">SERVICES</a>
-                    <a href="aboutus.html">ABOUT US</a>
-                    <a href="index.html#gallery">GALLERY</a>
-                    <a href="contactus.html">CONTACT</a>
-                    <a href="contactus.html#booking">BOOK NOW ↗</a>
-                </nav>
-            </details>
+            <div class="contact-icon">⌖</div>
+            <h3>FIND US</h3>
+
+            <p>
+              JCUTZ Barbershop Joni,
+              Ulpianë, Prishtinë, Kosovë.
+            </p>
+
+            <a
+              href="https://www.google.com/maps/search/?api=1&amp;query=Ulpiana%2C%20Prishtina%2C%20Kosovo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              OPEN GOOGLE MAPS ↗
+            </a>
+          </article>
 
         </div>
-    </header>
+      </div>
+    </section>
 
 
-    <main>
+    <!-- BOOKING FORM -->
 
-        <!-- CONTACT HERO -->
+    <section class="section booking-section" id="booking">
+      <div class="container booking-layout">
 
-        <section class="page-hero contact-hero">
-            <div class="container page-hero-content">
+        <div class="booking-content reveal">
 
-                <span class="section-tag">JCUTZ / GET IN TOUCH</span>
+          <span class="section-kicker">
+            <b>02</b> / SAVE YOUR SPOT
+          </span>
 
-                <h1>
-                    LET'S GET<br>
-                    YOU <span>FRESH.</span>
-                </h1>
+          <h2>
+            BOOK YOUR<br>
+            <em>CHAIR.</em>
+          </h2>
 
-                <p>
-                    Pe don fade-in ma fresh n'shehër?
-                    Cakto terminin te JCUTZ Barbershop Joni
-                    dhe bëhu gati për stilin tënd të ri.
-                </p>
+          <p>
+            Plotëso të dhënat, zgjedhe shërbimin
+            dhe na trego datën e orën që dëshiron.
+            Do të të kontaktojmë për konfirmim.
+          </p>
 
-                <a href="#booking" class="btn btn-green">
-                    BOOK YOUR APPOINTMENT ↗
-                </a>
+          <div class="booking-photo">
+            <img src="clipper.jpg"
+                 alt="Makina profesionale për qethje"
+                 loading="lazy">
 
+            <div class="booking-photo-caption">
+              <span>THE RIGHT TOOLS. THE RIGHT DETAILS.</span>
+              <strong>STAY SHARP.</strong>
             </div>
-        </section>
-
-
-        <!-- CONTACT INFORMATION -->
-
-        <section class="section" id="contact-info">
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <span class="section-tag">01 / CONTACT</span>
-                        <h2>GET IN <span>TOUCH.</span></h2>
-                    </div>
-
-                    <p>
-                        Contact us directly or fill out
-                        the appointment request below.
-                    </p>
-                </div>
-
-                <div class="contact-grid">
-
-                    <article class="contact-card">
-                        <span class="contact-card-number">01 / PHONE</span>
-                        <div class="contact-icon">☎</div>
-
-                        <h3>CALL US</h3>
-                        <p>
-                            Na telefono për pyetje
-                            dhe informata rreth termineve.
-                        </p>
-
-                        <a href="tel:+38344160296">
-                            +383 44 160 296 ↗
-                        </a>
-                    </article>
-
-                    <article class="contact-card">
-                        <span class="contact-card-number">02 / EMAIL</span>
-                        <div class="contact-icon">✉</div>
-
-                        <h3>EMAIL US</h3>
-                        <p>
-                            Dërgo email për informata
-                            dhe kërkesa për rezervim.
-                        </p>
-
-                        <a href="mailto:jonmulolli99@gmail.com">
-                            jonmulolli99@gmail.com ↗
-                        </a>
-                    </article>
-
-                    <article class="contact-card">
-                        <span class="contact-card-number">03 / LOCATION</span>
-                        <div class="contact-icon">⌖</div>
-
-                        <h3>FIND US</h3>
-                        <p>
-                            Barbershop Joni, Ulpianë,
-                            Prishtinë, Kosovë.
-                        </p>
-
-                        <a href="https://www.google.com/maps/search/?api=1&amp;query=Ulpiana%2C%20Prishtina%2C%20Kosovo"
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            OPEN MAPS ↗
-                        </a>
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- APPOINTMENT -->
-
-        <section class="section section-alt" id="booking">
-            <div class="container booking-layout">
-
-                <div class="booking-left">
-
-                    <span class="section-tag">02 / RESERVATIONS</span>
-
-                    <h2>
-                        BOOK YOUR<br>
-                        <span>NEXT CUT.</span>
-                    </h2>
-
-                    <p>
-                        Pe don një qethje të freskët?
-                        Plotëso formularin dhe kërko datën
-                        dhe orën që të përshtaten.
-                    </p>
-
-                    <div class="booking-photo">
-                        <img src="clipper.jpg"
-                             alt="Barber clipper"
-                             loading="lazy">
-
-                        <div class="image-caption">
-                            <span>JCUTZ / BARBERING</span>
-                            <strong>PRECISION IN EVERY CUT.</strong>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <!-- FORMULARI I REZERVIMIT -->
-
-                <div class="booking-form-card">
-
-                    <div class="booking-form-header">
-                        <span>JCUTZ / BOOKING FORM</span>
-                        <h3>RESERVE <em>YOUR STYLE.</em></h3>
-                        <p>
-                            Complete the fields below to
-                            send an appointment request.
-                        </p>
-                    </div>
-
-                    <form
-                        action="https://formsubmit.co/jonmulolli99@gmail.com"
-                        method="POST"
-                        class="booking-form"
-                    >
-
-                        <input type="hidden"
-                               name="_subject"
-                               value="JCUTZ - Kerkese e re per termin">
-
-                        <input type="text"
-                               name="_honey"
-                               class="honeypot"
-                               tabindex="-1"
-                               autocomplete="off">
-
-                        <fieldset class="booking-fieldset">
-                            <legend>YOUR INFORMATION</legend>
-
-                            <div class="form-row">
-
-                                <div class="form-group">
-                                    <label for="first-name">FIRST NAME</label>
-                                    <input
-                                        type="text"
-                                        id="first-name"
-                                        name="first_name"
-                                        placeholder="Shkruaj emrin"
-                                        autocomplete="given-name"
-                                        maxlength="60"
-                                        required>
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="last-name">LAST NAME</label>
-                                    <input
-                                        type="text"
-                                        id="last-name"
-                                        name="last_name"
-                                        placeholder="Shkruaj mbiemrin"
-                                        autocomplete="family-name"
-                                        maxlength="60"
-                                        required>
-                                </div>
-
-                            </div>
-
-                            <div class="form-row">
-
-                                <div class="form-group">
-                                    <label for="email">EMAIL</label>
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        name="email"
-                                        placeholder="example@gmail.com"
-                                        autocomplete="email"
-                                        required>
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="phone">PHONE</label>
-                                    <input
-                                        type="tel"
-                                        id="phone"
-                                        name="phone"
-                                        placeholder="04X XXX XXX"
-                                        autocomplete="tel"
-                                        maxlength="25"
-                                        required>
-                                </div>
-
-                            </div>
-
-                        </fieldset>
-
-                        <fieldset class="booking-fieldset">
-                            <legend>APPOINTMENT DETAILS</legend>
-
-                            <div class="form-group">
-                                <label for="service">CHOOSE SERVICE</label>
-
-                                <select id="service" name="service" required>
-                                    <option value="">Select a service</option>
-                                    <option value="Haircut - 3 EUR">
-                                        Haircut - 3€
-                                    </option>
-                                    <option value="Beard Trim - 2 EUR">
-                                        Beard Trim - 2€
-                                    </option>
-                                    <option value="Hair Wash - 1 EUR">
-                                        Hair Wash - 1€
-                                    </option>
-                                    <option value="Full Grooming - 4 EUR">
-                                        Haircut + Beard - 4€
-                                    </option>
-                                </select>
-                            </div>
-
-                            <div class="form-row">
-
-                                <div class="form-group">
-                                    <label for="appointment-date">
-                                        DATE
-                                    </label>
-                                    <input
-                                        type="date"
-                                        id="appointment-date"
-                                        name="appointment_date"
-                                        required>
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="appointment-time">
-                                        TIME
-                                    </label>
-                                    <input
-                                        type="time"
-                                        id="appointment-time"
-                                        name="appointment_time"
-                                        required>
-                                </div>
-
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message">MESSAGE (OPTIONAL)</label>
-                                <textarea
-                                    id="message"
-                                    name="message"
-                                    rows="4"
-                                    maxlength="1000"
-                                    placeholder="Shkruaj ndonje kerkese..."></textarea>
-                            </div>
-
-                        </fieldset>
-
-                        <button type="submit" class="btn btn-green submit-btn">
-                            REQUEST APPOINTMENT ↗
-                        </button>
-
-                        <p class="form-disclaimer">
-                            Ky formular dërgon kërkesë për termin
-                            përmes FormSubmit. Termini nuk
-                            konfirmohet automatikisht.
-                            Do të duhet të marrësh përgjigje
-                            nga barbershop-i.
-                        </p>
-
-                    </form>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- FINAL CTA -->
-
-        <section class="cta-section">
-            <div class="container cta-layout">
-                <div>
-                    <span>JCUTZ / BARBERSHOP JONI</span>
-                    <h2>
-                        ONE CUT.<br>
-                        <strong>NEW CONFIDENCE.</strong>
-                    </h2>
-                </div>
-
-                <a href="tel:+38344160296" class="btn btn-dark">
-                    CALL US NOW ↗
-                </a>
-            </div>
-        </section>
-
-    </main>
-
-
-    <footer class="footer">
-        <div class="container">
-
-            <div class="footer-grid">
-
-                <div class="footer-about">
-                    <a href="index.html" class="logo">
-                        J<span>✦</span>CUTZ
-                        <small>BARBERSHOP JONI</small>
-                    </a>
-
-                    <p>
-                        Precision. Confidence. Style.<br>
-                        More than a haircut.
-                    </p>
-                </div>
-
-                <div class="footer-links">
-                    <h3>EXPLORE</h3>
-                    <a href="index.html">Home</a>
-                    <a href="index.html#services">Services</a>
-                    <a href="aboutus.html">About Us</a>
-                    <a href="contactus.html">Contact</a>
-                </div>
-
-                <div class="footer-links">
-                    <h3>CONTACT</h3>
-                    <a href="tel:+38344160296">+383 44 160 296</a>
-                    <a href="mailto:jonmulolli99@gmail.com">Email Us</a>
-                    <a href="contactus.html#booking">Book a Cut</a>
-                </div>
-
-            </div>
-
-            <div class="footer-bottom">
-                <span>© 2026 JCUTZ BARBERSHOP JONI</span>
-                <span>MADE WITH PASSION ✦</span>
-            </div>
+          </div>
+
+          <div class="booking-steps">
+            <div><span>01</span> FILL IN THE FORM</div>
+            <div><span>02</span> REQUEST YOUR TIME</div>
+            <div><span>03</span> WAIT FOR CONFIRMATION</div>
+          </div>
 
         </div>
-    </footer>
+
+
+        <div class="form-panel reveal">
+
+          <div class="form-heading">
+            <span>JCUTZ / APPOINTMENT REQUEST</span>
+
+            <h3>
+              YOUR NEXT <em>LOOK.</em>
+            </h3>
+
+            <p>Fields marked with * are required.</p>
+          </div>
+
+
+          <form
+            action="https://formsubmit.co/jonmulolli99@gmail.com"
+            method="POST"
+            class="booking-form"
+          >
+
+            <input
+              type="hidden"
+              name="_subject"
+              value="JCUTZ | Kërkesë e re për termin"
+            >
+
+            <input type="hidden" name="_template" value="table">
+
+            <input
+              type="text"
+              name="_honey"
+              class="spam-trap"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            >
+
+
+            <!-- PERSONAL INFORMATION -->
+
+            <fieldset>
+              <legend>01 / PERSONAL INFORMATION</legend>
+
+              <div class="field-grid">
+
+                <div class="form-field">
+                  <label for="first_name">EMRI *</label>
+                  <input
+                    type="text"
+                    id="first_name"
+                    name="first_name"
+                    placeholder="Emri yt"
+                    autocomplete="given-name"
+                    maxlength="60"
+                    required
+                  >
+                </div>
+
+                <div class="form-field">
+                  <label for="last_name">MBIEMRI *</label>
+                  <input
+                    type="text"
+                    id="last_name"
+                    name="last_name"
+                    placeholder="Mbiemri yt"
+                    autocomplete="family-name"
+                    maxlength="60"
+                    required
+                  >
+                </div>
+
+              </div>
+
+              <div class="field-grid">
+
+                <div class="form-field">
+                  <label for="email">EMAIL *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="email@example.com"
+                    autocomplete="email"
+                    required
+                  >
+                </div>
+
+                <div class="form-field">
+                  <label for="phone">TELEFONI *</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="04X XXX XXX"
+                    autocomplete="tel"
+                    maxlength="25"
+                    required
+                  >
+                </div>
+
+              </div>
+            </fieldset>
+
+
+            <!-- APPOINTMENT DETAILS -->
+
+            <fieldset>
+              <legend>02 / APPOINTMENT DETAILS</legend>
+
+              <div class="form-field">
+                <label for="service">SHËRBIMI *</label>
+
+                <select name="service" id="service" required>
+                  <option value="" selected disabled>
+                    Zgjedhe shërbimin
+                  </option>
+                  <option value="Haircut - 3 EUR">
+                    Haircut / 3€
+                  </option>
+                  <option value="Beard Trim - 2 EUR">
+                    Beard Trim / 2€
+                  </option>
+                  <option value="Hair Wash - 1 EUR">
+                    Hair Wash / 1€
+                  </option>
+                  <option value="Full Grooming - 4 EUR">
+                    Haircut + Beard / 4€
+                  </option>
+                </select>
+              </div>
+
+              <div class="field-grid">
+
+                <div class="form-field">
+                  <label for="date">DATA E DËSHIRUAR *</label>
+                  <input
+                    type="date"
+                    id="date"
+                    name="appointment_date"
+                    required
+                  >
+                </div>
+
+                <div class="form-field">
+                  <label for="time">ORA E DËSHIRUAR *</label>
+                  <input
+                    type="time"
+                    id="time"
+                    name="appointment_time"
+                    required
+                  >
+                </div>
+
+              </div>
+
+              <div class="form-field">
+                <label for="message">MESAZH SHTESË</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="4"
+                  maxlength="1000"
+                  placeholder="A ke ndonjë kërkesë tjetër?"
+                ></textarea>
+              </div>
+            </fieldset>
+
+
+            <button class="button button-accent form-submit" type="submit">
+              DËRGO KËRKESËN <span>↗</span>
+            </button>
+
+            <p class="form-note">
+              Kjo është vetëm kërkesë për termin.
+              Rezervimi bëhet i vlefshëm pasi të marrësh
+              konfirmim nga JCUTZ. Kontrollo që data
+              të jetë në të ardhmen.
+            </p>
+
+            <p class="form-note">
+              Formulari përdor shërbimin e jashtëm FormSubmit
+              për të dërguar të dhënat në email.
+            </p>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FREQUENTLY ASKED QUESTIONS -->
+
+    <section class="section faq-section">
+      <div class="container faq-layout">
+
+        <div class="faq-heading reveal">
+          <span class="section-kicker">
+            <b>03</b> / GOOD TO KNOW
+          </span>
+
+          <h2>
+            QUICK<br>
+            <em>ANSWERS.</em>
+          </h2>
+
+          <p>
+            Tri përgjigje të shpejta
+            para se të rezervosh.
+          </p>
+        </div>
+
+        <div class="faq-items reveal">
+
+          <details>
+            <summary>
+              A konfirmohet termini automatikisht?
+              <span>+</span>
+            </summary>
+
+            <p>
+              Jo. Formulari dërgon kërkesën në email.
+              Termini konfirmohet pasi të marrësh përgjigje.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              A mund ta zgjedh vetë orën?
+              <span>+</span>
+            </summary>
+
+            <p>
+              Po, mund ta shkruash orën që dëshiron.
+              Ne të tregojmë nëse është e lirë.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              A mund t'ju kontaktoj në telefon?
+              <span>+</span>
+            </summary>
+
+            <p>
+              Po. Na thirr në
+              <a href="tel:+38344160296">+383 44 160 296</a>
+              për të pyetur direkt.
+            </p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FINAL CTA -->
+
+    <section class="big-cta">
+      <div class="container big-cta-layout">
+
+        <div>
+          <span class="cta-overline">JCUTZ / KEEP IT FRESH</span>
+
+          <h2>
+            ONE CUT.<br>
+            <em>NEW CONFIDENCE.</em>
+          </h2>
+        </div>
+
+        <a class="button button-black" href="tel:+38344160296">
+          CALL US NOW <span>↗</span>
+        </a>
+
+        <span class="cta-spark" aria-hidden="true">✦</span>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-main">J<span>✦</span>CUTZ</span>
+            <small>BARBERSHOP JONI</small>
+          </a>
+
+          <p>
+            More than a haircut.<br>
+            It's a statement.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>EXPLORE</h3>
+          <a href="index.html">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="index.html#gallery">Gallery</a>
+          <a href="contactus.html">Contact</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>GET IN TOUCH</h3>
+          <a href="tel:+38344160296">+383 44 160 296</a>
+          <a href="mailto:jonmulolli99@gmail.com">Send an email</a>
+          <a href="contactus.html#booking">Request appointment</a>
+          <p>Ulpianë, Prishtinë, Kosovë</p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 JCUTZ BARBERSHOP JONI</span>
+        <span>CRAFTED WITH PASSION ✦</span>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
 </html>

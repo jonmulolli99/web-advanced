@@ -2,362 +2,370 @@
 <!DOCTYPE html>
 <html lang="sq">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Njihuni me historinë e JCUTZ Barbershop Joni, pasionin dhe përkushtimin për berberi.">
-    <title>About Us | JCUTZ Barbershop Joni</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d0b">
+  <meta name="description" content="Njih historinë e Jonit, berberit pas JCUTZ në Prishtinë. Pasioni filloi në moshën 13 vjeçare.">
+  <title>Our Story — JCUTZ Barbershop Joni</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Kalo te përmbajtja</a>
 
-    <header class="header">
-        <div class="container nav-container">
+  <header class="site-header">
+    <div class="nav-shell container">
 
-            <a href="index.html" class="logo">
-                J<span>✦</span>CUTZ
-                <small>BARBERSHOP JONI</small>
-            </a>
+      <a class="brand" href="index.html" aria-label="JCUTZ, faqja kryesore">
+        <span class="brand-main">J<span>✦</span>CUTZ</span>
+        <small>BARBERSHOP JONI</small>
+      </a>
 
-            <nav class="desktop-nav" aria-label="Main navigation">
-                <a href="index.html">HOME</a>
-                <a href="index.html#services">SERVICES</a>
-                <a href="aboutus.html" class="active">ABOUT US</a>
-                <a href="index.html#gallery">GALLERY</a>
-                <a href="contactus.html">CONTACT</a>
-            </nav>
+      <nav class="desktop-nav" aria-label="Navigimi kryesor">
+        <a href="index.html">HOME</a>
+        <a href="index.html#services">SERVICES</a>
+        <a class="current" aria-current="page" href="aboutus.html">ABOUT</a>
+        <a href="index.html#gallery">GALLERY</a>
+        <a href="contactus.html">CONTACT</a>
+      </nav>
 
-            <a href="contactus.html#booking" class="nav-cta">
-                BOOK NOW ↗
-            </a>
+      <a class="nav-book" href="contactus.html#booking">
+        BOOK A CHAIR <span>↗</span>
+      </a>
 
-            <details class="mobile-menu">
-                <summary aria-label="Open navigation menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </summary>
+      <details class="mobile-menu">
+        <summary aria-label="Hap menynë">
+          <span></span><span></span><span></span>
+        </summary>
 
-                <nav class="mobile-links" aria-label="Mobile navigation">
-                    <a href="index.html">HOME</a>
-                    <a href="index.html#services">SERVICES</a>
-                    <a href="aboutus.html">ABOUT US</a>
-                    <a href="index.html#gallery">GALLERY</a>
-                    <a href="contactus.html">CONTACT</a>
-                    <a href="contactus.html#booking">BOOK NOW ↗</a>
-                </nav>
-            </details>
+        <nav aria-label="Navigimi për telefon">
+          <a href="index.html">HOME</a>
+          <a href="index.html#services">SERVICES</a>
+          <a href="aboutus.html">ABOUT</a>
+          <a href="index.html#gallery">GALLERY</a>
+          <a href="contactus.html">CONTACT</a>
+          <a href="contactus.html#booking">BOOK A CHAIR ↗</a>
+        </nav>
+      </details>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ABOUT HERO -->
+
+    <section class="inner-hero about-hero" aria-labelledby="about-heading">
+      <div class="container inner-hero-content">
+
+        <span class="section-kicker">
+          <b>JCUTZ</b> / MEET THE BARBER
+        </span>
+
+        <h1 id="about-heading">
+          BUILT ON<br>
+          <em>PASSION.</em>
+        </h1>
+
+        <p>
+          Një fillim i hershëm. Një pasion i madh.
+          Një rrugëtim që sapo ka nisur.
+        </p>
+
+        <a href="#story" class="button button-accent">
+          DISCOVER MY STORY <span>↓</span>
+        </a>
+
+      </div>
+
+      <span class="inner-hero-watermark" aria-hidden="true">J✦</span>
+    </section>
+
+
+    <!-- MY STORY -->
+
+    <section class="section story-section" id="story">
+      <div class="container story-grid">
+
+        <div class="story-photo reveal">
+          <img src="youngbarber.jfif"
+               alt="Joni, berberi dhe krijuesi i JCUTZ"
+               loading="lazy">
+
+          <div class="story-photo-mark">
+            <span>THE BARBER BEHIND THE BRAND</span>
+            <strong>JONI.</strong>
+          </div>
+        </div>
+
+        <div class="story-copy reveal">
+          <span class="section-kicker">
+            <b>01</b> / THIS IS MY STORY
+          </span>
+
+          <h2>
+            NOT JUST<br>
+            A HOBBY.<br>
+            <em>MY CRAFT.</em>
+          </h2>
+
+          <p class="story-intro">
+            Përshëndetje, jam Joni.
+            Jam një berber i ri me shumë pasion
+            për atë që bëj.
+          </p>
+
+          <p>
+            Që në moshën <strong>13 vjeçare</strong>
+            kam filluar të merrem me berberi.
+            Ndonëse isha i vogël, e mora seriozisht
+            këtë punë, duke mësuar dhe praktikuar
+            vazhdimisht.
+          </p>
+
+          <p>
+            Gjatë rrugëtimit kam marrë komplimente
+            dhe vlerësime pozitive edhe nga njerëz
+            me përvojë. Kjo më ka motivuar të vazhdoj
+            të përmirësohem.
+          </p>
+
+          <p>
+            Për mua, çdo qethje është një mundësi
+            për të treguar kreativitet, kujdes
+            dhe përkushtim. Synimi im është të rritem
+            në këtë profesion dhe të krijoj stilin tim.
+          </p>
+
+          <a class="text-link" href="contactus.html#booking">
+            REZERVO TERMININ <span>↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- PHILOSOPHY -->
+
+    <section class="statement-panel">
+      <div class="container">
+
+        <span class="section-kicker">
+          <b>MY MINDSET</b> / JCUTZ
+        </span>
+
+        <blockquote>
+          "AGE DOESN'T<br>
+          DEFINE YOUR<br>
+          <em>AMBITION.</em>"
+        </blockquote>
+
+        <p>PASSION. PRACTICE. PROGRESS.</p>
+      </div>
+    </section>
+
+
+    <!-- THE JOURNEY -->
+
+    <section class="section journey-section">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">
+              <b>02</b> / THE JOURNEY
+            </span>
+
+            <h2>
+              THREE<br>
+              <em>CHAPTERS.</em>
+            </h2>
+          </div>
+
+          <p>
+            Një histori që po shkruhet me përkushtim,
+            praktikë dhe dëshirë për t'u bërë më i mirë.
+          </p>
+        </div>
+
+        <div class="journey-grid">
+
+          <article class="journey-card reveal">
+            <span class="journey-order">01</span>
+            <span class="journey-tag">THE START</span>
+            <h3>THE FIRST CUT</h3>
+            <p>
+              Fillimi i pasionit për qethjen
+              në moshën 13 vjeçare.
+            </p>
+            <strong>WHERE IT BEGAN ↗</strong>
+          </article>
+
+          <article class="journey-card reveal">
+            <span class="journey-order">02</span>
+            <span class="journey-tag">THE PROCESS</span>
+            <h3>KEEP LEARNING</h3>
+            <p>
+              Praktikë, gabime, mësime dhe përmirësim
+              në çdo detaj.
+            </p>
+            <strong>GROW EVERY DAY ↗</strong>
+          </article>
+
+          <article class="journey-card reveal">
+            <span class="journey-order">03</span>
+            <span class="journey-tag">THE VISION</span>
+            <h3>THE NEXT LEVEL</h3>
+            <p>
+              Ndërtimi i JCUTZ dhe zhvillimi
+              i një stili personal.
+            </p>
+            <strong>ALWAYS FORWARD ↗</strong>
+          </article>
 
         </div>
-    </header>
-
-
-    <main>
-
-        <!-- ABOUT HERO -->
-
-        <section class="page-hero about-hero">
-            <div class="container page-hero-content">
-
-                <span class="section-tag">JCUTZ / THE STORY</span>
-
-                <h1>
-                    YOUNG AGE.<br>
-                    <span>BIG DREAMS.</span>
-                </h1>
-
-                <p>
-                    Every great journey starts with passion.
-                    This is my story, my dedication
-                    and my love for barbering.
-                </p>
-
-                <a href="#my-story" class="btn btn-green">
-                    DISCOVER MY STORY ↓
-                </a>
-
-            </div>
-        </section>
-
-
-        <!-- MY STORY -->
-
-        <section class="section" id="my-story">
-
-            <div class="container split-layout">
-
-                <div class="image-panel story-image">
-                    <div class="image-caption">
-                        <span>JCUTZ / THE BEGINNING</span>
-                        <strong>PASSION HAS NO AGE.</strong>
-                    </div>
-                </div>
-
-                <div class="split-content">
-
-                    <span class="section-tag">01 / WHO I AM</span>
-
-                    <h2>
-                        NOT JUST<br>
-                        A BARBER.<br>
-                        <span>A PASSION.</span>
-                    </h2>
-
-                    <p>
-                        Përshëndetje! Jam Joni, një berber i ri
-                        me pasion dhe përkushtim të vërtetë
-                        për profesionin tim.
-                    </p>
-
-                    <p>
-                        Që në moshën 13 vjeçare kam filluar
-                        të merrem me berberi, një punë që
-                        kërkon kreativitet, durim dhe
-                        shumë praktikë.
-                    </p>
-
-                    <p>
-                        Edhe pse në një moshë të re, kam
-                        marrë shumë komplimente dhe
-                        vlerësime pozitive nga njerëz
-                        me përvojë.
-                    </p>
-
-                    <p>
-                        Për mua, çdo qethje është mundësi
-                        për t'u përmirësuar dhe për të
-                        krijuar diçka të veçantë.
-                        Qëllimi im është të vazhdoj
-                        të mësoj dhe të zhvillohem çdo ditë.
-                    </p>
-
-                    <a href="contactus.html#booking" class="btn btn-outline">
-                        BOOK A HAIRCUT ↗
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- JOURNEY -->
-
-        <section class="section section-alt">
-
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <span class="section-tag">02 / MY JOURNEY</span>
-                        <h2>THE <span>JOURNEY.</span></h2>
-                    </div>
-
-                    <p>
-                        From the first haircut to every
-                        new challenge, the goal stays
-                        the same: keep improving.
-                    </p>
-                </div>
-
-                <div class="journey-grid">
-
-                    <article class="journey-card">
-                        <span class="journey-number">01</span>
-
-                        <h3>THE BEGINNING</h3>
-
-                        <p>
-                            Në moshën 13 vjeçare filloi
-                            pasioni im për qethjen dhe
-                            profesionin e berberit.
-                        </p>
-
-                        <strong>AGE 13 ✦</strong>
-                    </article>
-
-                    <article class="journey-card">
-                        <span class="journey-number">02</span>
-
-                        <h3>LEARNING</h3>
-
-                        <p>
-                            Me praktikë dhe përkushtim
-                            kam punuar për të përmirësuar
-                            teknikat dhe detajet.
-                        </p>
-
-                        <strong>KEEP GROWING ✦</strong>
-                    </article>
-
-                    <article class="journey-card">
-                        <span class="journey-number">03</span>
-
-                        <h3>THE AMBITION</h3>
-
-                        <p>
-                            Synimi im është të zhvillohem
-                            në këtë profesion dhe t'u
-                            ofroj klientëve stilin që duan.
-                        </p>
-
-                        <strong>THE FUTURE ✦</strong>
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- WHAT MATTERS -->
-
-        <section class="section">
-
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <span class="section-tag">03 / WHAT I BELIEVE</span>
-                        <h2>MY <span>VALUES.</span></h2>
-                    </div>
-
-                    <p>
-                        A good haircut takes more than
-                        just a clipper and scissors.
-                    </p>
-                </div>
-
-                <div class="values-grid">
-
-                    <article class="value-card">
-                        <span>✦</span>
-                        <h3>PASSION</h3>
-                        <p>
-                            Dashuria për profesionin
-                            dhe dëshira për të mësuar.
-                        </p>
-                    </article>
-
-                    <article class="value-card">
-                        <span>✂</span>
-                        <h3>PRECISION</h3>
-                        <p>
-                            Përkushtim ndaj detajeve
-                            dhe pastërtisë së qethjes.
-                        </p>
-                    </article>
-
-                    <article class="value-card">
-                        <span>◈</span>
-                        <h3>CREATIVITY</h3>
-                        <p>
-                            Ide dhe stile që përshtaten
-                            me dëshirën e klientit.
-                        </p>
-                    </article>
-
-                    <article class="value-card">
-                        <span>↗</span>
-                        <h3>GROWTH</h3>
-                        <p>
-                            Përmirësim i vazhdueshëm
-                            dhe ambicie për të ardhmen.
-                        </p>
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- PERSONAL STATEMENT -->
-
-        <section class="statement-section">
-            <div class="container">
-
-                <span class="section-tag">JCUTZ / MY PHILOSOPHY</span>
-
-                <blockquote>
-                    "AGE DOESN'T DEFINE<br>
-                    YOUR <span>AMBITION.</span>"
-                </blockquote>
-
-                <p>
-                    Passion. Practice. Progress.
-                </p>
-
-            </div>
-        </section>
-
-
-        <!-- CTA -->
-
-        <section class="cta-section">
-            <div class="container cta-layout">
-                <div>
-                    <span>READY FOR A FRESH LOOK?</span>
-
-                    <h2>
-                        YOUR STYLE.<br>
-                        <strong>MY PASSION.</strong>
-                    </h2>
-                </div>
-
-                <a href="contactus.html#booking" class="btn btn-dark">
-                    BOOK YOUR CUT ↗
-                </a>
-            </div>
-        </section>
-
-    </main>
-
-
-    <footer class="footer">
-        <div class="container">
-
-            <div class="footer-grid">
-
-                <div class="footer-about">
-                    <a href="index.html" class="logo">
-                        J<span>✦</span>CUTZ
-                        <small>BARBERSHOP JONI</small>
-                    </a>
-
-                    <p>
-                        Precision. Confidence. Style.<br>
-                        More than a haircut.
-                    </p>
-                </div>
-
-                <div class="footer-links">
-                    <h3>EXPLORE</h3>
-                    <a href="index.html">Home</a>
-                    <a href="index.html#services">Services</a>
-                    <a href="aboutus.html">About Us</a>
-                    <a href="contactus.html">Contact</a>
-                </div>
-
-                <div class="footer-links">
-                    <h3>CONTACT</h3>
-                    <a href="tel:+38344160296">+383 44 160 296</a>
-                    <a href="mailto:jonmulolli99@gmail.com">Email Us</a>
-                    <a href="contactus.html#booking">Book a Cut</a>
-                </div>
-
-            </div>
-
-            <div class="footer-bottom">
-                <span>© 2026 JCUTZ BARBERSHOP JONI</span>
-                <span>MADE WITH PASSION ✦</span>
-            </div>
+      </div>
+    </section>
+
+
+    <!-- VALUES -->
+
+    <section class="section beliefs-section">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">
+              <b>03</b> / THE JCUTZ CODE
+            </span>
+
+            <h2>
+              WHAT I<br>
+              <em>STAND FOR.</em>
+            </h2>
+          </div>
+
+          <p>
+            Katër gjëra që për mua kanë rëndësi
+            në çdo hap të këtij profesioni.
+          </p>
+        </div>
+
+        <div class="belief-grid">
+
+          <article class="belief-card reveal">
+            <span>✦</span>
+            <h3>PASSION</h3>
+            <p>
+              Dashuria për profesionin dhe
+              motivimi për të mësuar.
+            </p>
+          </article>
+
+          <article class="belief-card reveal">
+            <span>✂</span>
+            <h3>PRECISION</h3>
+            <p>
+              Kujdesi për vijat, detajet
+              dhe rezultatin final.
+            </p>
+          </article>
+
+          <article class="belief-card reveal">
+            <span>◈</span>
+            <h3>CREATIVITY</h3>
+            <p>
+              Çdo klient ka stilin e vet.
+              Çdo qethje ka karakter.
+            </p>
+          </article>
+
+          <article class="belief-card reveal">
+            <span>↗</span>
+            <h3>PROGRESS</h3>
+            <p>
+              Gjithmonë ka diçka të re
+              për t'u përmirësuar.
+            </p>
+          </article>
 
         </div>
-    </footer>
+      </div>
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+
+    <section class="big-cta">
+      <div class="container big-cta-layout">
+
+        <div>
+          <span class="cta-overline">JCUTZ / MAKE YOUR MOVE</span>
+
+          <h2>
+            YOUR STYLE.<br>
+            <em>MY PASSION.</em>
+          </h2>
+        </div>
+
+        <a class="button button-black" href="contactus.html#booking">
+          BOOK YOUR CHAIR <span>↗</span>
+        </a>
+
+        <span class="cta-spark" aria-hidden="true">✦</span>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-main">J<span>✦</span>CUTZ</span>
+            <small>BARBERSHOP JONI</small>
+          </a>
+
+          <p>
+            More than a haircut.<br>
+            It's a statement.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>EXPLORE</h3>
+          <a href="index.html">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="index.html#gallery">Gallery</a>
+          <a href="contactus.html">Contact</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>GET IN TOUCH</h3>
+          <a href="tel:+38344160296">+383 44 160 296</a>
+          <a href="mailto:jonmulolli99@gmail.com">Send an email</a>
+          <a href="contactus.html#booking">Request appointment</a>
+          <p>Ulpianë, Prishtinë, Kosovë</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 JCUTZ BARBERSHOP JONI</span>
+        <span>CRAFTED WITH PASSION ✦</span>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
 </html>
