@@ -1,0 +1,7 @@
+div#static{
+    position: static;
+    border: 3px solid rosybrown;
+    width: 250px;
+    height: 250px;
+    padding: ;
+}
